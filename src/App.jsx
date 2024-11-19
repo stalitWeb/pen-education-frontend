@@ -81,6 +81,9 @@ import './swiper.css';
 // import required modules
 import { EffectCards } from 'swiper/modules';
 
+// pages
+import SingleBlogPage from './components/pages/blog'
+
 
 function App() {
 
@@ -88,6 +91,7 @@ function App() {
 
   return (
     <div className='body'>
+      
       {/* HEADER SECTION */}
       <header className='header flex justify-center items-center px-6 md:px-16'>
         <div className='containe w-full xl:max-w-[1280px]'>
@@ -2124,6 +2128,8 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <SingleBlogPage />
 
     </div>
   )
