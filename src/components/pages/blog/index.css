@@ -1,0 +1,155 @@
+.start-section {
+    background: url(../../../assets/section-top.png) center center / cover;
+    background-position: center center;
+}
+
+.blog-social a {
+  background: #2eca7f;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+
+.blog-social a:hover {
+  background:rgb(26, 45, 98);
+}
+
+.title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.author-card {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 10px;
+}
+
+.comment-card {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 10px;
+}
+
+.reply-card {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+}
+
+
+.img-box {
+    box-shadow: 0 0 2px 5px #eee;
+}
+
+.comment-form-section input {
+    padding: 20px;
+    background: #eee;
+    outline: none;
+}
+
+.comment-form-section textarea {
+    padding: 20px;
+    background: #eee;
+    outline: none;
+}
+
+.form-wrapper {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 5px;
+}
+
+.form-card {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-card input {
+    padding: 10px;
+    outline: none;
+}
+
+.post-list-section {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 5px;
+}
+
+.follow-social-section {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 5px;
+}
+
+.follow-social-section a {
+    border-radius: 5px;
+}
+
+.sidebar-card {
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 5px;
+}
+
+.sidebar-category-section a{
+    text-decoration: 1px #1a2d62 underline;
+}
+
+.sidebar-category-section sup{
+    color: #2eca7f;
+}
+
+.sidebar-tag-section a {
+    background: #eee;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.sidebar-tag-section a:hover {
+    background: #2eca7f;
+    color: white;
+}
+
+/* PRE-DEFINED CUSTOM UTILITY CLASS */
+
+/* Background */
+.bg-facebook {
+    background: rgb(26, 79, 197);
+}
+
+.bg-twitter {
+    background: rgb(0, 172, 238);
+}
+
+.bg-youtube {
+    background: rgb(245, 0, 0);
+}
+
+.bg-pinterest {
+    background: rgb(230, 46, 63);
+}
+
+.bg-tumbir {
+    background: rgb(52, 82, 111);
+}
+
+.bg-rss {
+    background: rgb(232, 165, 14);
+}
+
+
+
