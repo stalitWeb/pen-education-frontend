@@ -1,0 +1,39 @@
+# Configuration
+
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: lazy-client-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+        app: lazy-client-srv
+  template:
+    metadata:
+      labels:
+        app: lazy-client-srv
+    spec:
+      containers:
+        - name: lazy-client-srv
+          image: stalit/lazy-client-srv
+
+---
+
+# Service component
+
+apiVersion: v1
+kind: Service 
+metadata:
+  name: lazy-client-clusterip-srv
+spec:
+  selector:
+    labels:
+      app: lazy-client-srv
+    type: ClusterIP
+  hosts:
+    - name: lazy-client-clusterip-srv
+      protocol: TCP
+      port: 5173
+      targetPort: 5173
+

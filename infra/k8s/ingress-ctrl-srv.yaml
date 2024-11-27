@@ -1,0 +1,17 @@
+apiVersion: kubernetes.k8s.io/vi1beta1
+kind: Ingress
+metadata:
+  name: ingress-ctrl-srv
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx..ingress.kubernetes.io/use-regex: 'true'
+spec:
+rules:
+  - host: penEdu.com
+    http:
+      paths:
+        - path: /?(.*)
+          backend:
+            serviceName: lazy-client-clusterip-srv
+            servicePort: 5173
+            
