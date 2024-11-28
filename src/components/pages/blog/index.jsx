@@ -50,7 +50,7 @@ function SingleBlogPage() {
                 <div className='containe w-full xl:max-w-[1280px]'>
                     <div className='layout-layer flex flex-col lg:flex-row justify-center capitalize py-6 gap-3 lg:gap-10'>
                         <div className='flex-[1.5] flex flex-row justify-between items-cente gap-5'>
-                        <a href='#' className='w-[152px] h-[52px] flex flex-col justify-center items-center montserrat'>
+                        <a href='/' className='w-[152px] h-[52px] flex flex-col justify-center items-center montserrat'>
                             <img src={logo} alt='' className='w-[100%] h-[1005] object-contai'/>
                         </a>
             
