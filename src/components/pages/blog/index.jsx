@@ -82,7 +82,7 @@ function SingleBlogPage() {
                                 </li>
 
                                 <li>
-                                <a href=''>FAQ's</a>
+                                <a href=''>FAQs</a>
                                 </li>
 
                                 <li>
@@ -212,7 +212,7 @@ function SingleBlogPage() {
                                 </li>
 
                                 <li>
-                                <a href=''>FAQ's</a>
+                                <a href=''>FAQs</a>
                                 </li>
 
                                 <li>

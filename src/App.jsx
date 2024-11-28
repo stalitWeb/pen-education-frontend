@@ -54,7 +54,6 @@ import { IoCalendarOutline } from "react-icons/io5";
 import { LuClock9 } from "react-icons/lu";
 import { FaStar } from "react-icons/fa";
 import { FaTableCells } from "react-icons/fa6";
-import { BsCheckSquare } from "react-icons/bs";
 import { FaCheck } from "react-icons/fa";
 import { FaRegPaperPlane } from "react-icons/fa";
 import { FaRegFile } from "react-icons/fa6";
@@ -97,7 +96,7 @@ function App() {
   return (
       <BrowserRouter> 
         <Routes>
-           <Route path="/" element={ <div className='body'>
+           <Route path="/" element={<div className='body'>
             
               {/* HEADER SECTION */}
               <header className='header flex justify-center items-center px-6 md:px-16'>
@@ -136,7 +135,7 @@ function App() {
                             </li>
 
                             <li>
-                              <a href=''>FAQ's</a>
+                              <a href=''>FAQs</a>
                             </li>
 
                             <li>
@@ -266,7 +265,7 @@ function App() {
                             </li>
 
                             <li>
-                              <a href=''>FAQ's</a>
+                              <a href='#'>FAQs</a>
                             </li>
 
                             <li>
@@ -1036,7 +1035,7 @@ function App() {
                 <div className='box-width w-full xl:max-w-[1280px]'>
                   <div className='layout-layer bg-black= grid grid-cols-12 justify-center items-center py-12 md:py-12'> 
                     <div className='news-letter-form text-center col-start-1 col-span-12 md:col-start-4 md:col-span-6 flex flex-col gap-5'>
-                      <h2 className='w-[95%] text-[30px] md:text-[40px] text-lightblue montserrat font-bold capitalize leading-[] md:leading-[52px] m-auto'>Subscribe to our newsletter, We don't make any spam.</h2>
+                      <h2 className='w-[95%] text-[30px] md:text-[40px] text-lightblue montserrat font-bold capitalize leading-[] md:leading-[52px] m-auto'>Subscribe to our newsletter, We do not make any spam.</h2>
 
                       <p className='text-[16px] text-lightgray poppins'>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim</p>
 
