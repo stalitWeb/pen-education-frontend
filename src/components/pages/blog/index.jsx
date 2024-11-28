@@ -56,7 +56,7 @@ function SingleBlogPage() {
             
                         <ul className='hidden text-lightblue lg:flex flex-row justify-center items-center text-[16px] montserrat font-normal gap-5'>
                             <li className='desktop-menu relative flex flex-col'>
-                            <a href='#'>home</a>
+                            <a href='/'>home</a>
                             </li>
 
                             <li className='desktop-menu relative flex flex-col'>

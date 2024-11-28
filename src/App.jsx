@@ -97,14 +97,14 @@ function App() {
   return (
       <BrowserRouter> 
         <Routes>
-           <Route  path="/" element={ <div className='body'>
+           <Route path="/" element={ <div className='body'>
             
               {/* HEADER SECTION */}
               <header className='header flex justify-center items-center px-6 md:px-16'>
                 <div className='containe w-full xl:max-w-[1280px]'>
                   <div className='layout-layer flex flex-col lg:flex-row justify-center capitalize py-6 gap-3 lg:gap-10'>
                     <div className='flex-[1.5] flex flex-row justify-between items-cente gap-5'>
-                      <a href='/blog-single' className='w-[152px] h-[52px] flex flex-col justify-center items-center montserrat'>
+                      <a href='/' className='w-[152px] h-[52px] flex flex-col justify-center items-center montserrat'>
                         <img src={logo} alt='' className='w-[100%] h-[1005] object-contai'/>
                       </a>
 
