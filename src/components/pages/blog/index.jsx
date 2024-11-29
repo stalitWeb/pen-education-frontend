@@ -44,7 +44,7 @@ function SingleBlogPage() {
 
 
     return (
-        <>
+        <div className='w-full'>
             {/* HEADER SECTION */}
             <header className='header flex justify-center items-center px-6 md:px-16'>
                 <div className='containe w-full xl:max-w-[1280px]'>
@@ -348,11 +348,12 @@ function SingleBlogPage() {
             {/* MAIN SECTION */}
             <section className='main-section flex jsutify-center items-center px-6 md:px-16'>
                 <div className='box-width w-full xl:max-w-[1280px]'>
-                    <div className='layout-layer flex flex-col md:flex-row justify-center items-start py-12 md:py-24 gap-10'>
+                    <div className='layout-layer w-full flex flex-col md:flex-row justify-center items-start py-12 md:py-24 gap-10'>
                         <div className='flex-[1.5] flex flex-col gap-10'>
-                            <div className='blog-content flex flex-col gap-5'>
-                                <img src={blog3} alt='' className='w-full object-contain' />
-                                <p className='text-[16px] text-lightgray poppins'>I almost couldn’t believe it was real! For my first test I had generate some website copy 
+                            <div className='blog-content w-full flex flex-col gap-5'>
+                                {/* <img src={blog3} alt='' className='w-full object-contain' /> */}
+                                <p className='w-[100%] text-[16px] text-lightgray poppins'>I almost couldn’t believe it 
+                                    was real! For my first test I had generate some website copy 
                                     for me. I provided about 50 words to describe my business along with my business name. 
                                     generated two variants of copy each with several paragraphs of professional sounding copy. 
                                     I immediately shared the results with a friend who couldn’t believe it was written by an AI. 
@@ -363,7 +364,7 @@ function SingleBlogPage() {
 
                                      <h4 className='w-[95%] text-lightblue text-[30px] montserrat font-bold capitalize ml-auto'>Enhancing Your E-commerce Store With AI Writing Assistants</h4>
 
-                                     <img src={blog1} alt='' className='w-full object-contain' />
+                                     {/* <img src={blog1} alt='' className='w-full object-contain' /> */}
 
                                      <p className='text-[16px] text-lightgray poppins'>I immediately shared the results with a friend who couldn’t believe it was written by an AI. 
                                         is worth every penny and then some. Describe my business along with my business name. generated 
@@ -375,7 +376,7 @@ function SingleBlogPage() {
                             <div className='blog-social-Wrapper w-full flex flex-col gap-5'>
                                 <h4 className='text-[20px] text-lightblue montserrat font-semibold'>Share</h4>
 
-                                <ul className='blog-social flex flex-row items-center gap-3'>
+                                <ul className='blog-social flex flex-row flex-wrap items-center gap-3'>
                                     <li>
                                         <a href="" className='flex flex-row justify-center items-center poppins capitalize px-6 py-4 gap-2'>
                                             <span className='w-[16px] h-[16px] flex flex-col justify-center items-center'>
@@ -863,7 +864,7 @@ function SingleBlogPage() {
                 </div>
                 </div>
             </footer>
-        </>
+        </div>
     )
 }
 
